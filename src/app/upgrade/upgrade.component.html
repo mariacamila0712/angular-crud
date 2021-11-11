@@ -1,0 +1,15 @@
+<form>
+  <div style="padding: 4px">
+    <label> Titulo </label>
+    <input type="text" name="tit" [(ngModel)]="titulo" class="titulo" />
+  </div>
+  <div style="padding: 4px">
+    <label> Body </label>
+    <textarea [(ngModel)]="cuerpo" name="cuerp" class="body"> </textarea>
+  </div>
+  <div style="padding: 4px">
+    <label> ID </label>
+    <input type="number" name="id" [(ngModel)]="id" class="id" />
+  </div>
+  <button class="btn" (click)="update()">Guardar</button>
+</form>

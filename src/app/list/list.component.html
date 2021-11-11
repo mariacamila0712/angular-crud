@@ -1,0 +1,9 @@
+<button class="btn-lista" (click)="list()">Listar</button>
+
+<div class="main.container">
+  <ul>
+    <li class="listItem" *ngFor="let i of lista">
+      {{ i.title }}
+    </li>
+  </ul>
+</div>

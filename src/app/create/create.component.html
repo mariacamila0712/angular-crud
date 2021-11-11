@@ -1,0 +1,11 @@
+<form>
+  <div style="padding: 4px">
+    <label> Titulo </label>
+    <input type="text" name="tit" [(ngModel)]="titulo" class="titulo" />
+  </div>
+  <div style="padding: 4px">
+    <label> Body </label>
+    <textarea [(ngModel)]="cuerpo" name="cuerp" class="body"> </textarea>
+  </div>
+  <button class="btn" (click)="save()">Guardar</button>
+</form>
