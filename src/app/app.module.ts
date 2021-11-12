@@ -5,10 +5,10 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { AppRoutingModule } from './app-routing.module';
-import { CrearComponent } from './crear/crear.component';
-import { ListarComponent } from './listar/listar.component';
-import { EliminarComponent } from './eliminar/eliminar.component';
-import { ActualizarComponent } from './actualizar/actualizar.component';
+import { CrearComponent } from './create/create.component';
+import { ListarComponent } from './list/list.component';
+import { EliminarComponent } from './remove/remove.component';
+import { ActualizarComponent } from './upgrade/upgrade.component';
 import { PostService } from './Post.service';
 import { HttpClientModule } from '@angular/common/http';
 
