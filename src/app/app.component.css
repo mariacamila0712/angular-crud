@@ -13,3 +13,10 @@
   text-decoration: none;
   color: #ffffff;
 }
+
+.btn_save{
+  width: 100px;
+  background-color: rgb(207, 29, 29);
+  border-radius: 10px;
+  border: none;
+}
