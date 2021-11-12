@@ -18,7 +18,7 @@ export class ActualizarComponent {
       .editarPost(this.titulo, this.cuerpo, +this.id)
       .subscribe((res) => {
         console.log(res);
-        alert('Edición Satisfactoria!');
+        alert('Editados.');
       });
   }
 }

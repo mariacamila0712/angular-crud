@@ -15,7 +15,7 @@ export class CrearComponent {
   save() {
     this._service.postData(this.titulo, this.cuerpo).subscribe((res) => {
       console.log(res);
-      alert('Inserción Satisfactoria!');
+      alert('Datos insertados.');
     });
   }
 }

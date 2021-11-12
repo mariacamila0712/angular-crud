@@ -14,7 +14,7 @@ export class EliminarComponent {
   delete() {
     this._service.eliminarPost(this.id).subscribe((res) => {
       console.log(res);
-      alert('Eliminación Satisfactoria!');
+      alert('Datos eliminados.');
     });
   }
 }
